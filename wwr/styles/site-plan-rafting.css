@@ -1,0 +1,58 @@
+@import url("https://fonts.google.com/noto/specimen/Noto+Sans");
+
+:root{
+    --primary-color: #1d3557;
+    --secondary-color: #457B9D;
+    --accent1-color: #A8DADC;
+    --accent2-color: #F1FAEE;
+
+    --heading-font: 'nota sans', serif;
+    --paragraph-font: 'nota sans', serif;
+
+    --nav-background-color: #F1FAEE;
+    --nav-link-color: #A8DADC;
+    --nav-hover-link-color: #457B9D;
+    --nave-hover-background-color: #F1FAEE;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nave-hover-background-color);
+}
