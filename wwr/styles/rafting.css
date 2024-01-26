@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=YourSelectedFont1&family=YourSelectedFont2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap');
 
 :root {
     --main-bg-color: #333;
@@ -38,9 +38,10 @@ nav a, .sociallinks a {
 }
 
 .hero img {
-    width: 100%;
+    width: auto;
     height: 100%;
     object-fit: cover;
+    display: block;
 }
 
 .hero h1, .hero article {
@@ -65,11 +66,13 @@ article {
 
 article p {
     margin-bottom: 20px;
+    color: black;
 }
 
 article img {
-    float: right;
-    margin-left: 20px;
+    float: left;
+    width: auto;
+    height: 1px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -78,4 +81,8 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
     color: inherit;
+}
+
+.sociallinks img {
+    width: 40px;
 }
