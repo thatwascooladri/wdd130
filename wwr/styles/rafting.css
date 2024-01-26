@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=YourSelectedFont1&family=YourSelectedFont2&display=swap');
+
+:root {
+    --main-bg-color: #333;
+    --main-text-color: #fff;
+    --accent-color: #3498db;
+    --article-bg-color: rgba(255, 255, 255, 0.8);
+    --box-shadow-color: rgba(0, 0, 0, 0.3);
+}
+
+body {
+    margin: 0;
+    font-family: 'YourSelectedFont1', sans-serif;
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header, nav, main, .hero, article, section, footer {
+    padding: 10px;
+}
+
+header, nav, main, .hero, article, section, footer {
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+}
+
+nav a, .sociallinks a {
+    text-decoration: none;
+    color: var(--accent-color);
+    margin-right: 10px;
+}
+
+.hero img {
+    width: 100%;
+}
+
+article {
+    background-color: var(--article-bg-color);
+    box-shadow: 0 0 10px var(--box-shadow-color);
+}
+
+article img {
+    float: right;
+    margin-left: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--accent-color);
+}
+
+p {
+    color: inherit;
+}
