@@ -1,20 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap');
-
-:root {
-    --main-bg-color: #333;
-    --main-text-color: #fff;
-    --accent-color: #3498db;
-    --article-bg-color: rgba(255, 255, 255, 0.9);
-    --box-shadow-color: rgba(0, 0, 0, 0.3);
-}
-
+/* Reset some default browser styles */
 body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: 'nota sans', sans-serif;
+    font-family: 'Arial', sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
@@ -31,18 +22,14 @@ nav {
     text-align: center;
 }
 
+/* Heading Styles */
 h1 {
     font-size: 2.5em;
     color: #2c3e50;
     margin-bottom: 10px;
 }
 
-h2 {
-    font-size: 2em;
-    color: #3498db;
-    margin-bottom: 10px;
-}
-
+/* Paragraph Styles */
 p {
     font-size: 1.1em;
     line-height: 1.5;
@@ -50,11 +37,13 @@ p {
     color: #555;
 }
 
+/* Main Section Styles */
 main {
     padding: 20px;
     color: #333;
 }
 
+/* Hero Section Styles */
 .hero {
     position: relative;
     text-align: center;
@@ -71,6 +60,7 @@ main {
     margin-bottom: 15px;
 }
 
+/* Absolute positioning for h1 and article */
 .hero-content {
     position: absolute;
     top: 50%;
@@ -86,6 +76,7 @@ h1, article {
     position: relative;
 }
 
+/* Article Styles */
 article {
     background-color: rgba(52, 152, 219, 0.8);
     padding: 15px;
@@ -101,10 +92,7 @@ article img {
     margin-left: 15px;
 }
 
-section {
-    margin-bottom: 30px;
-}
-
+/* Footer Styles */
 footer {
     background-color: #2c3e50;
     color: #fff;
@@ -112,6 +100,7 @@ footer {
     padding: 15px 0;
 }
 
+/* Navigation Styles */
 .navlinks {
     display: flex;
     list-style: none;
@@ -124,6 +113,7 @@ footer {
     font-weight: bold;
 }
 
+/* Social Links Styles */
 .sociallinks {
     margin-top: 15px;
 }
