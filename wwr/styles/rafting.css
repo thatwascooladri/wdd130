@@ -3,7 +3,7 @@
 :root {
     --main-bg-color: #333;
     --main-text-color: #fff;
-    --accent-color: #3498db;
+    --accent-color: #000000;
     --article-bg-color: rgba(255, 255, 255, 0.9);
     --box-shadow-color: rgba(0, 0, 0, 0.3);
 }
@@ -23,7 +23,7 @@ body {
 }
 
 header {
-    background-color: #0077cc;
+    background-color: #000000;
     padding: 10px;
 }
 
