@@ -155,7 +155,7 @@ footer {
 footer p {
     color: white;
     display: inline-block;
-    margin-left: 350px;
+    margin-left: 390px;
 
 }
 
@@ -178,7 +178,7 @@ footer p {
 .sociallinks {
     display: flex;
     align-items: center;
-    margin-left: 250px;
+    margin-left: 200px;
     
 }
 
