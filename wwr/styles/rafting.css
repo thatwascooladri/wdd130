@@ -126,6 +126,7 @@ section {
 
 .adventure-section h2 {
     display: grid;
+    color: rgb(78, 73, 73);
 }
 
 .adventure-section {
