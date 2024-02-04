@@ -206,3 +206,76 @@ footer p {
 .history h2, p {
     margin-bottom: 20px;
 }
+
+#contact {
+    text-align: center;
+}
+
+#contact p {
+    font-size: 2rem;
+}
+
+#map {
+    margin-left: 300px;
+}
+
+.employee-pic {
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+}
+.employee-pic img {
+    width: 250px;
+    height: auto;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: grid;
+    background-color: rgb(45, 44, 44);
+    color: white;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    border-radius: 0.5rem;
+}
+
+#message {
+    width: 600px;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+    padding: 1rem;
+}
+
+button {
+    margin: 1rem;
+    margin-left: 250px;
+    background-color: white;
+    color: black;
+    font-size: 1.2rem;
+    border-radius: 0.75rem;
+    padding: .5rem 1rem;
+    border: none;
+    width: 10rem;
+
+}
+
+button:hover {
+    background-color: crimson;
+    color: white;
+}
