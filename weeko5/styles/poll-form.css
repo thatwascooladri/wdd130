@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: noto sans, sans;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    background: rgb(125, 121, 121);
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    margin: 3rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 3rem;
+    border: 1px solid whitesmoke;
+    border-radius: 0.5rem;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid whitesmoke;
+    padding: 1rem;
+
+}
+
+legend {
+    padding: 0.5rem;
+    color: white;
+    font-size: 1.3em;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: white;
+    color: black;
+    font-size: 1.2rem;
+    border-radius: .5rem;
+    padding: .75rem;
+    border: none;
+}
+
+button:hover {
+    background-color: crimson;
+    color: white;
+}
