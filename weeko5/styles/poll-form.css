@@ -67,12 +67,15 @@ input[type="checkbox"] {
 
 button {
     margin: 1rem;
+    margin-left: 200px;
     background-color: white;
     color: black;
     font-size: 1.2rem;
-    border-radius: .5rem;
-    padding: .75rem;
+    border-radius: 0.75rem;
+    padding: .5rem 1rem;
     border: none;
+    width: 10rem;
+
 }
 
 button:hover {
@@ -82,9 +85,30 @@ button:hover {
 
 footer {
     margin: 1rem auto 0;
+    padding: 1rem;
     width: 650px;
     text-align: center;
     font-size: 0.8em;
     color: white;
     border-top: 1px solid white;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+
+#list {
+    text-align: center;
+    font-size: 1.1rem;
 }
