@@ -215,18 +215,23 @@ footer p {
     font-size: 2rem;
 }
 
-#map {
+iframe {
     margin-left: 300px;
+    width: 600px;
+    height: 450px;
 }
 
 .employee-pic {
     display: flex;
     align-items: center;
-    margin-left: 80px;
+    margin-left: 75px;
 }
 .employee-pic img {
     width: 250px;
     height: auto;
+    border: solid 1px black;
+    align-items: center;
+
 }
 
 form {
