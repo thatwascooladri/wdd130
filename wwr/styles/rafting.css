@@ -327,3 +327,25 @@ button:hover {
     text-align: center;
 }
 
+/* Existing styles */
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.trip-table th, .trip-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.trip-table th {
+    background-color: #333;
+    color: #fff;
+}
+
+.trip-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
